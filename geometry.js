@@ -134,6 +134,7 @@ window.onload = function ()
     $("rect_width").focus(); // places the cursor in the first input box
     $("calc_all").onclick = do_it; // runs the do_it function when clicked
     $("calc_circle_circum").onclick = calcCircleCircum; // runs the calcCircleCircum function when clicked
+    $("calc_rect_are").onclick = calcRectArea;
     $("calc_rect_perim").onclick = calcRectPerim;
     $("calc_tri_area").onclick = calcTriArea;
     $("calc_tri_perim").onclick = calcTriPerim;
