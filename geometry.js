@@ -21,7 +21,7 @@ var do_it = function ()
         rectPerim(floatRectHeight, floatRectWidth) + "\n\n" + "The Triangle area is " + 
         triArea(floatTriSide1, floatTriSide2, floatTriSide3) + " and the perimeter is " + 
         triPerim(floatTriSide1, floatTriSide2, floatTriSide3) + "\n\n" +
-		"The Circle area is " + circleArea(floatRadius) + " and the circumference is " + circlePerim(floatRadius));
+		"The Circle area is " + circleArea(floatRadius) + " and the circumference is " + circleCircum(floatRadius));
 
 };
 
